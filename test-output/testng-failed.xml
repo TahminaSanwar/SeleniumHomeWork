@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw17JavaSelenium.Use_of_implicitlyWait">
+      <class name="hw15JavaSeleniumMethods.Use_of_clear_keysEnter_methods">
         <methods>
-          <include name="setUp"/>
-          <include name="requestAnAppointmentTest"/>
+          <include name="logInInfoTest"/>
           <include name="tearUp"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- hw17JavaSelenium.Use_of_implicitlyWait -->
+      </class> <!-- hw15JavaSeleniumMethods.Use_of_clear_keysEnter_methods -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,5 +1,4 @@
 package hw17JavaSelenium;
-import static org.testng.Assert.assertTrue;
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -10,8 +9,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import net.jodah.failsafe.internal.util.Assert;
 
 public class Use_of_implicitlyWait {
 
